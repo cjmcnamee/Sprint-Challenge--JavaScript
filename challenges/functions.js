@@ -7,8 +7,11 @@
   * In the body of the function return the callback with the two parameters that you created
 */
 
-function
+function coolback(param1, param2, cb) {
+  return param1 + param2;
+}
 
+coolback(1, 2);
 
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
@@ -28,7 +31,6 @@ function
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: `nestedfunction()` can access the variable `internal` because its nested within the function that `internal` is present in, and since functions can search within a global scope, it can invoke the variable.
-
 
 const external = "I'm outside the function";
 
