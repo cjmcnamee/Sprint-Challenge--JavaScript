@@ -7,11 +7,6 @@
   * In the body of the function return the callback with the two parameters that you created
 */
 
-function coolback(param1, param2, cb) {
-  return param1 + param2;
-}
-
-coolback(1, 2);
 
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
