@@ -29,14 +29,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+  The biggest difference between `.forEach` & `.map` is that `.forEach` doesn't return anything inside the scope, it just invokes each array element while `.map` does the same thing but it'll return a new array.
 
 2. What is the difference between a function and a method?
+  The difference between function and method is that a function is its own thing while a method is an internal thing that's part of a class.
 
 3. What is closure?
+  A closure is the act of a function referring to something in the global scope inside of it's local scope.
 
 4. Describe the four rules of the 'this' keyword.
 
+  * Implicit Binding - 'this' references the object when you invoke it.
+  * Explicit Binding - 'this' references the first argument inside the function.
+  * 'new' Binding - 'this' references 'new' when it creates a new object.
+  * Window Binding - 'this' is refered to the window/console object in a global scope"
+
 5. Why do we need super() in an extended class?
+  We need super() because its what we use to callback to the parent class.
 
 ## Project Set up
 
@@ -65,11 +74,11 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
+Test your knowledge of objects and arrays.
 * [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
+This challenge takes a look at callbacks and closures as well as scope.
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
