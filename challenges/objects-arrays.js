@@ -12,7 +12,10 @@ const tyranno = {
   diet: 'carnivorous',
   weight: '7000kg',
   length: '12m',
-  period: 'Late Cretaceous'
+  period: 'Late Cretaceous',
+  roar() {
+      return "RAWERSRARARWERSARARARRRR!"
+  }
 }
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
@@ -39,17 +42,16 @@ const veloci = {
 console.log(tyranno.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(veloci.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(stego.length);
 
 // What time period did tyrannosaurus live in?
-console.log();
-
+console.log(tyranno.period);
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(tyranno.roar());
 
 
 // ==== Arrays ====
